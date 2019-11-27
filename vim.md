@@ -48,27 +48,33 @@ vim毕竟是个编辑器，正则表达式中包含的大量元字符如果原�
   /\V(a.c){3}$   # 查找任意位置的(a.c){3}$
   ```
 
-# 3. Little tricks
+# 3.  Advanced tricks
 
 `%`  跳转到光标所在括号的匹配
 
 `:Lex` 打开目录
 
-`gt` `gT`   切换tab
-
-`bp`  回到前一个窗口
-
 `ctrl-g` 查看当前文件信息
 
-`''`  两个单引号用来返回上一处
+`''`  两个单引号会回到同一文件的上一跳转位置
+
+`bp`  回到上一次跳转
 
 `gD`  查找全局定义 
+
+`ctrl+p/n` 在插入模式下自动搜索输入历史，根据输入历史补全
+
+`#` 等价于gD
+
+`ctrl-u/d` 翻半页
 
 # 4. Tab usage
 
 `:tab new filename` 		
 
 `:tabc`			关闭tab
+
+`gt` `gT`   切换tab
 
 # 5. Vim Configuration, Indent, Highlight, Auto-complement
 
