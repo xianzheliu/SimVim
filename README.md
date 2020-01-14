@@ -1,5 +1,4 @@
 # SimVim v0.1
----------------------------------------------------------------------
 **A Simple Vim Configuration and Tutorial**  
 Contain a complete Vim Configuration V0.1 and an cscope autoload 
 database plugin.</br>
