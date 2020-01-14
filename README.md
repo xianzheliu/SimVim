@@ -1,12 +1,10 @@
 # SimVim v0.1
 **A Simple Vim Configuration and Tutorial**  
-Contain a complete Vim Configuration V0.1 and an cscope autoload 
-database plugin.</br>
+This repository contains a complete Vim Configuration V0.1, an cscope autoload 
+database plugin, and some useful tricks about vim on your daily development.</br>
 
-This Simple Vim configuration consistis of the features uesd
-in your daily development and code review, just need to copy vimrc
-file and the autoload_cscope.vim.
-The configuration file has the following features.</br>
+## 1. Vim Configuration
+The Vim configuration V0.1 consists of the following features,</br>
     -autoindent</br>
     -show linenumber</br>
     -change colorscheme</br>
@@ -18,8 +16,12 @@ The configuration file has the following features.</br>
     -the directory tree</br>
     -keep the cursor always in the middle position</br>
     -(Todo)</br>
-And one more thing is that used the cscope plugin for the convience
-of viewing code. But one tricky thing is that the database can not
-be load automaticly. So I use the Vim official plugin to make it
-perfect.</br>
+    
+## 2. autoload_cscope.vim
+For the convience of viewing code, Some people use cscope, which is a notable developer's  
+tool for browsing source code. But one tricky thing is that the cscope database can not  
+be load automatically. So I found this pulgin, named  autoload_cscope.vim, from Vim  
+official plugin site. To use it, just put the file on the ./vim/plugin/ directory.</br>
 
+## 3. vim.md
+An easy-to-use tutorial.
